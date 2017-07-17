@@ -14,7 +14,15 @@ req.addEventListener("load", function(){
   console.log(obj.name);
     h1.innerHTML = `${obj.name}`;
 
-    ul.innerHTML = `Name: ${obj.name} <br> Github URL: ${obj.html_url} <br> Email: ${obj.email} <br> Company: ${obj.company} <br> Website: ${obj.blog} `;
+    ul.innerHTML = `Name: ${obj.name}
+                    <br>
+                    Github URL: <a href="https://github.com/eman-s">${obj.html_url}</a>
+                    <br>
+                    Email: ${obj.email}
+                    <br>
+                    Company: ${obj.company}
+                    <br>
+                    Website: ${obj.blog} `;
 
     p.innerHTML = `${obj.bio}`;
 
