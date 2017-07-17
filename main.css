@@ -1,4 +1,25 @@
-body{
+.name{
   background-color: black;
   color: white;
+  padding:50px;
+  font-family: 'Times New Roman';
+  font-weight: 100;
+  font-size: 80px;
+}
+header{
+  text-align: center;
+}
+.main_content{
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+img{
+  border-radius: 100%;
+  width: auto;
+  height: 110px;
+  margin-top: 50px;
+  margin-left: -60px;
+
 }
