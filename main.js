@@ -21,15 +21,15 @@ req.addEventListener("load", function(){
 
     h1.innerHTML = `${obj.name}`;
 
-    ul.innerHTML = `Name: ${obj.name}
+    ul.innerHTML = `<span>Name:</span> ${obj.name}
                     <br>
-                    Github URL: <a href="https://github.com/eman-s">${obj.html_url}</a>
+                    <span>Github URL:</span> <a href="https://github.com/eman-s">${obj.html_url}</a>
                     <br>
-                    Email: ${obj.email}
+                    <span>Email:</span> ${obj.email}
                     <br>
-                    Company: ${obj.company}
+                    <span>Company:</span> ${obj.company}
                     <br>
-                    Website: ${obj.blog} `;
+                    <span>Website:</sapn> ${obj.blog} `;
 
     p.innerHTML = `${obj.bio}`;
 
